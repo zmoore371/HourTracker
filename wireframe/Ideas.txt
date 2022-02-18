@@ -1,0 +1,29 @@
+Application to be used by automotive mechanics in workplace to log work and information related to it
+
+Create a user database? Is this for just me or production?  
+
+Ability to store all information related to each RO
+RO number contains date created, type of vehicle (selection), total hours, and date completed
+Each RO will have a repairs tab broken down into [Repair, Hours, Comments]
+
+Gonna use MongoDB? Need to look at how all the tables need to relate to each other and decide between that or SQL
+
+
+
+Username | Email | Password | RO's []
+-------------------------------------
+	 |       |          |
+	 |       |          |
+
+
+ID | RO | Vehicle Info | Date-In | Date-Out | Total Hours
+----------------------------------------------------------              
+   |    |              |         |          |      
+   |    |              |         |          |         
+   |    |              |         |          |
+
+
+ID | RO | Repair | Hours | Comments
+-----------------------------------
+   |    |        |       |         
+   |    |        |       |   
